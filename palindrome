@@ -1,0 +1,17 @@
+var r,sum=0,num;
+var n = prompt("Enter a Number : ");
+num = n;
+while(n>0)
+    {
+        r=n%10;
+        sum=(sum*10)+r;
+        n=parseInt(n/10);
+    }
+if(num==sum)
+{
+    console.log("Its Palindrome Number ");
+}
+else
+{
+    console.log("Its not Palindrome Number ");
+}
